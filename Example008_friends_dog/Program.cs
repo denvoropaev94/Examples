@@ -19,7 +19,7 @@ while (distance > 10)
         friend = 1;   
     }
 distance = distance - (firstFriendSpeed + secondFriendSpeed) * time;
-count++;
+count = count +1;
 Console.WriteLine(count);
 }
 
