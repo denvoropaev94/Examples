@@ -1,4 +1,4 @@
-﻿void FillArray (int[] collection)
+﻿void FillArray (int[] collection)//Метод наполнения массива
 {
     int length = collection.Length;
     int index = 0;
@@ -8,7 +8,7 @@
     }
 }
 
-void PrintArray(int[] col)
+void PrintArray(int[] col)//Метод, который печает массив
 {
     int count = col.Length;
     int position = 0;
@@ -19,7 +19,7 @@ void PrintArray(int[] col)
     }
 }
 
-int IndexOf(int[] collection, int find)
+int IndexOf(int[] collection, int find)//Нахождение позиции элемента в массиве
 {
     int count = collection.Length;
     int index = 0;
